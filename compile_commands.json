@@ -1,0 +1,29 @@
+[{
+  "file": "C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedTracked\\landbasedtracked.h",
+  "directory": "C:\\Users\\govin\\Documents\\HW3\\rwa3",
+  "command": "clang  -c C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedTracked\\landbasedtracked.h -o C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedTracked\\landbasedtracked.h.o  -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedRobot\\landbasedrobot.cpp",
+  "directory": "C:\\Users\\govin\\Documents\\HW3\\rwa3",
+  "command": "clang  -c C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedRobot\\landbasedrobot.cpp -o C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedRobot\\landbasedrobot.cpp.o  -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\govin\\Documents\\HW3\\rwa3\\main.cpp",
+  "directory": "C:\\Users\\govin\\Documents\\HW3\\rwa3",
+  "command": "clang  -c C:\\Users\\govin\\Documents\\HW3\\rwa3\\main.cpp -o C:\\Users\\govin\\Documents\\HW3\\rwa3\\main.cpp.o  -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedRobot\\landbasedrobot.h",
+  "directory": "C:\\Users\\govin\\Documents\\HW3\\rwa3",
+  "command": "clang  -c C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedRobot\\landbasedrobot.h -o C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedRobot\\landbasedrobot.h.o  -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedWheeled\\landbasedwheeled.h",
+  "directory": "C:\\Users\\govin\\Documents\\HW3\\rwa3",
+  "command": "clang  -c C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedWheeled\\landbasedwheeled.h -o C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedWheeled\\landbasedwheeled.h.o  -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedTracked\\landbasedtracked.cpp",
+  "directory": "C:\\Users\\govin\\Documents\\HW3\\rwa3",
+  "command": "clang  -c C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedTracked\\landbasedtracked.cpp -o C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedTracked\\landbasedtracked.cpp.o  -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedWheeled\\landbasedwheeled.cpp",
+  "directory": "C:\\Users\\govin\\Documents\\HW3\\rwa3",
+  "command": "clang  -c C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedWheeled\\landbasedwheeled.cpp -o C:\\Users\\govin\\Documents\\HW3\\rwa3\\src\\LandBasedWheeled\\landbasedwheeled.cpp.o  -I. -I.  -g  -O0  -Wall"
+ }]
