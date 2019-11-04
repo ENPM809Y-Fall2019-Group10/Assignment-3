@@ -1,8 +1,10 @@
 #include "landbasedtracked.h"
 
-rwa3::LandBasedTracked::LandBasedTracked(std::string* track_type, std::string name, int x, int y) 
-: LandBasedRobot(name, 0,0,0,0,0, x, y), track_type_{track_type}
-{std::cout << "LandBasedTracked::LandBasedTracked is called\n";};
+rwa3::LandBasedTracked::LandBasedTracked(std::string name, int x, int y) 
+: LandBasedRobot(name, x, y){
+	std::cout << "LandBasedTracked::LandBasedTracked is called\n";
+	track_type_ = new std::string;
+}
 
 void rwa3::LandBasedTracked::GoUp(int x, int y)
 {

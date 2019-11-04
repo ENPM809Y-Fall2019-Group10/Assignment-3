@@ -6,7 +6,7 @@ class LandBasedRobot
 {
 	public:
 		// Constructor
-		LandBasedRobot(std::string name="none", double speed=0, double width=0, double length=0, double height=0, double capacity=0, int x=0, int y=0);
+		LandBasedRobot(std::string name="none", int x=0, int y=0, double speed=0, double width=0, double length=0, double height=0, double capacity=0);
 		
 		// Mutators / Setters
 		void set_name(std::string name);		// set the name of the robot
@@ -35,9 +35,8 @@ class LandBasedRobot
 		virtual void TurnRight(int, int)=0;   	// Move the robot right in the maze.
 		virtual void PickUp(std::string);   	// Arm picks up an object.
 		virtual void Release(std::string);  	// Arm releases an object.
-
+		
 		// Destructor
-//		~LandBasedRobot();
 		virtual ~LandBasedRobot();
 	
 	protected:

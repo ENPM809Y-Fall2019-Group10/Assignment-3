@@ -9,7 +9,7 @@ class LandBasedTracked : public LandBasedRobot
 {
 	public:
 		// Constructor
-		LandBasedTracked(std::string* track_type=nullptr, std::string name="none", int x=0, int y=0);
+		LandBasedTracked(std::string name, int x, int y);
 		
 		// Setters / Mutators
 		void set_track_type(std::string*);
@@ -25,8 +25,10 @@ class LandBasedTracked : public LandBasedRobot
 		virtual void PickUp(std::string) override;   // Arm picks up an object.
 		virtual void Release(std::string) override;  // Arm releases an object.
 		
+		// Deep Copy Contructor
+		LandBasedTracked(const LandBasedTracked &source): LandBasedRobot(*source.track_type_){}
+		
 		//	Destructor
-//		~LandBasedTracked();
 		virtual ~LandBasedTracked();
 		
 	protected:

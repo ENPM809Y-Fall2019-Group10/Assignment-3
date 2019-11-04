@@ -9,7 +9,7 @@ class LandBasedWheeled : public LandBasedRobot
 {
 	public:
 		// Constructor
-		LandBasedWheeled(int wheel_number=0, std::string* wheel_type=nullptr, std::string name="none", int x=0, int y=0);
+		LandBasedWheeled(std::string, int, int);
 		
 		// Mutators / Setters
 		void set_wheel_number(int);
@@ -27,6 +27,9 @@ class LandBasedWheeled : public LandBasedRobot
 		virtual void TurnRight(int, int) override;   // Move the robot right in the maze.
 		virtual void PickUp(std::string) override;   // Arm picks up an object.
 		virtual void Release(std::string) override;  // Arm releases an object.
+		
+		// Deep Copy Contructor
+		LandBasedWheeled(const LandBasedWheeled &source): LandBasedRobot(*source.wheel_type_){}
 		
 		// Destructor
 //		~LandBasedWheeled();

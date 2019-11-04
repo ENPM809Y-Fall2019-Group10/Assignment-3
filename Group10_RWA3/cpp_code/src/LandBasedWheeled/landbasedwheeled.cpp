@@ -1,10 +1,12 @@
 #include "landbasedwheeled.h"
 
-rwa3::LandBasedWheeled::LandBasedWheeled(int wheel_number, std::string* wheel_type, std::string name, int x, int y)
-: LandBasedRobot(name, 0,0,0,0,0, x, y), wheel_number_{wheel_number}, wheel_type_{wheel_type}
-{std::cout << "LandBasedWheeled::LandBasedWheeled is called\n";};
+rwa3::LandBasedWheeled::LandBasedWheeled(std::string name, int x, int y)
+: LandBasedRobot(name, x, y){
+	std::cout << "LandBasedWheeled::LandBasedWheeled is called\n";
+	wheel_type_ = new std::string;
+}
 
-void rwa3::LandBasedWheeled::SpeedUp(int x)
+void rwa3::LandBasedWheeled::SpeedUp(int delta)
 {
 	std::cout << "LandBasedWheeled::SpeedUp is called\n";
 }
