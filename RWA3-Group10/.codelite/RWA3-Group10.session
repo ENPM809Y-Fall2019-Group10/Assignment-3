@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="/home/rachith/academia/III-SEM/ENPM809Y/lectures/RWA3-Group10/RWA3-Group10.workspace">
+  <int Value="0" Name="m_selectedTab"/>
+  <wxString Value="/home/rachith/academia/III-SEM/ENPM809Y/lectures/RWA3-Group10/RWA3-Group10.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/home/rachith/academia/III-SEM/ENPM809Y/lectures/RWA3-Group10/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="7" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/rachith/academia/III-SEM/ENPM809Y/lectures/RWA3-Group10/src/LandBasedRobot/landbasedrobot.h" Name="FileName"/>
+      <int Value="102" Name="FirstVisibleLine"/>
+      <int Value="105" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/rachith/academia/III-SEM/ENPM809Y/lectures/RWA3-Group10/src/LandBasedRobot/landbasedrobot.cpp" Name="FileName"/>
+      <int Value="5" Name="FirstVisibleLine"/>
+      <int Value="8" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/rachith/academia/III-SEM/ENPM809Y/lectures/RWA3-Group10/src/LandBasedTracked/landbasedwheeled.h" Name="FileName"/>
+      <int Value="63" Name="FirstVisibleLine"/>
+      <int Value="66" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/rachith/academia/III-SEM/ENPM809Y/lectures/RWA3-Group10/src/LandBasedTracked/landbasedwheeled.cpp" Name="FileName"/>
+      <int Value="38" Name="FirstVisibleLine"/>
+      <int Value="41" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/rachith/academia/III-SEM/ENPM809Y/lectures/RWA3-Group10/src/LandBasedWheeled/landbasedtracked.h" Name="FileName"/>
+      <int Value="42" Name="FirstVisibleLine"/>
+      <int Value="45" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/rachith/academia/III-SEM/ENPM809Y/lectures/RWA3-Group10/src/LandBasedWheeled/landbasedtracked.cpp" Name="FileName"/>
+      <int Value="3" Name="FirstVisibleLine"/>
+      <int Value="10" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc;*.plist;*.txt" Name="m_findInFilesMask"/>
+</Session>
