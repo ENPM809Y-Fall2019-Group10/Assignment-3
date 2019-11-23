@@ -9,12 +9,12 @@
   <Dependencies/>
   <VirtualDirectory Name="src">
     <VirtualDirectory Name="LandBasedTracked">
-      <File Name="src/LandBasedTracked/landbasedwheeled.cpp"/>
-      <File Name="src/LandBasedTracked/landbasedwheeled.h"/>
+      <File Name="src/LandBasedTracked/landbasedtracked.cpp"/>
+      <File Name="src/LandBasedTracked/landbasedtracked.h"/>
     </VirtualDirectory>
     <VirtualDirectory Name="LandBasedWheeled">
-      <File Name="src/LandBasedWheeled/landbasedtracked.cpp"/>
-      <File Name="src/LandBasedWheeled/landbasedtracked.h"/>
+      <File Name="src/LandBasedWheeled/landbasedwheeled.cpp"/>
+      <File Name="src/LandBasedWheeled/landbasedwheeled.h"/>
     </VirtualDirectory>
     <VirtualDirectory Name="LandBasedRobot">
       <File Name="src/LandBasedRobot/landbasedrobot.cpp"/>
